@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style type="text/css">
+    [class]{
+        width: 80%;
+        text-align: center;
+    }
+    
+    div.o1{
+        background-color: rgb(46, 46, 205);
+    }
+    div.o3{
+        background-color: rgb(90, 60, 60);
+    }
+    #tab1{
+        background: rgb(90, 60, 60);
+        border-collapse: separate;
+         border-spacing: 10px;
+        }
+        
+    #tfoot td:first-child{
+        background: #5fc7de;
+        
+        
+        
+    }
+    #tfoot td:nth-child(n+2){
+        color: rgb(0, 0, 0);
+        background: #d41d1d;
+    }
+    #tfoot td:nth-child(even){
+        
+        color: aliceblue;
+        background: #d7a5a5;
+    }
+    #hov:hover{
+        background: #694848;
+        }
+  
+    
+
+    table{
+        width: 80%;
+        height: auto;
+        border: 1px solid #000000;
+        border-collapse: separate;
+        border-spacing: 0px;
+    }
+    td{
+        border: 1px    solid black;
+        width: auto;
+        height: auto;
+        text-align: center;
+        padding: 5px;
+        }
+        th{
+        border: 1px solid black;
+        width: auto;
+        height: auto;
+        background-color: #4fb7e7;
+        text-align: center;
+        padding: 5px;
+    }
+    </style>
+</head>
+<body >
+    <div class="o1">Phần đầu</div>
+    <div class="o2">Danh sách học sinh</div>
+    <table  >
+        <tr >
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>
+            <th>Quê quán</th>
+        </tr>
+        <tr id="hov">
+            <td>1</td>
+            <td>TRẦN Anh Đức</td>
+            <td>03/08/1993</td>
+            <td>Nam</td>
+            <td>Cần Thơ</td>
+        </tr>
+        <tr id="hov">
+            <td>2</td>
+            <td>Kiều Thị Thu Hằng</td>
+            <td>04/09/1991</td>
+            <td>Nữ</td>
+            <td>Vĩnh Long</td>
+        </tr>
+        <tr id="hov">
+            <td>3</td>
+            <td>Vương Thị Lê Na</td>
+            <td>06/10/1991</td>
+            <td>Nữ</td>
+            <td>Sóc Trăng</td>
+        </tr>
+        <tr id="hov">
+            <td>4</td>
+            <td>Dương Thị Kim Thương</td>
+            <td>16/11/1991</td>
+            <td>Nam</td>
+            <td>TràVinh</td>
+        </tr>
+        <tr id="hov">
+            <td>5</td>
+            <td>Mai Đức Hiếu</td>
+            <td>18/10/1990</td>
+            <td>Nam</td>
+            <td>Hậu Giang</td>
+        </tr>
+    </table>
+   <div class="o3">Phần cuối</div>
+   <table class="tab" id="tab1">
+    <tr id="tfoot">
+        <td id="td1">1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+   </table>
+</body>
+</html>
